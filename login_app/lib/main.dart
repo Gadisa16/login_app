@@ -26,8 +26,8 @@ class _LoginPageState extends State<LoginPage> {
   final _passwordController = TextEditingController();
 
   // Hardcoded credentials
-  final String _validEmail = 'fedo@gmail.com';
-  final String _validPassword = 'fedo1234';
+  final String _validEmail = 'gado@gmail.com';
+  final String _validPassword = 'gado1234';
 
   void _validateLogin() {
     if (_formKey.currentState!.validate()) {
